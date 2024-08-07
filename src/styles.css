@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/*! Custom Prp  */
+:root {
+  --main-color: #2c3e50;
+  --sec-color: #1abc9c;
+}
+
+/* ! utilities */
+.bg-main {
+  background-color: var(--main-color);
+}
+.text-main {
+  color: var(--main-color);
+}
+.btn-main {
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px 25px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+.bg-sec {
+  background-color: var(--sec-color);
+}
+.text-sec {
+  color: var(--sec-color);
+}
+
+/*! Reset  */
+a,
+a:active {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.pb-105 {
+  padding-bottom: 105px;
+}
+
+.active {
+  background-color: var(--sec-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-left: -16px;
+}
+
+.vh-90 {
+  min-height: 90vh;
+}
+@media (max-width: 1199.98px) {
+  .pb-105 {
+    padding-bottom: 95px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .pb-105 {
+    padding-bottom: 90px;
+  }
+}

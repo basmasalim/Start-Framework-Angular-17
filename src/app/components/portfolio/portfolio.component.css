@@ -1,0 +1,16 @@
+figcaption {
+  opacity: 0;
+  transition: opacity 0.6s;
+  cursor: pointer;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
+.model {
+  z-index: 999;
+}
+@media (max-width: 660.98px) {
+  .model img{
+    width: 350px !important;
+  }
+}

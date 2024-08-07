@@ -1,0 +1,42 @@
+<nav
+  class="navbar navbar-expand-md bg-main fixed-top"
+  [class.p-4]="!isScrolling"
+>
+  <div class="container">
+    <a class="navbar-brand fs-2 fw-bolder" routerLink="">START FRAMEWORK</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item text-uppercase fw-bolder fs-5">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            routerLink="about"
+            routerLinkActive="active"
+            >about</a
+          >
+        </li>
+        <li class="nav-item text-uppercase fw-bolder fs-5 mx-md-4">
+          <a class="nav-link" routerLink="portfolio" routerLinkActive="active"
+            >portfolio</a
+          >
+        </li>
+        <li class="nav-item text-uppercase fw-bolder fs-5">
+          <a class="nav-link" routerLink="contact" routerLinkActive="active"
+            >contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,14 @@
+<section
+  class="bg-sec vh-90 d-flex flex-column justify-content-center align-items-center"
+>
+  <div class="container">
+    <app-star [TitleStar]="title" [customColor]="color"></app-star>
+    <div class="row g-3 text-white fw-semibold fs-6 w-75 mx-auto">
+      @for (p of aboutParagraph; track $index) {
+      <div class="col-md-6">
+        <p>{{ p }}</p>
+      </div>
+      }
+    </div>
+  </div>
+</section>
